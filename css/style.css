@@ -82,6 +82,7 @@ p {
   margin-bottom: 0;
   letter-spacing: 5px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .container-header-title {
@@ -92,13 +93,18 @@ p {
 	padding-left: 31%;	
 }
 
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  width: 646px;
+}
+
 .button-left {
   width: 311px;
   height: 77px;
   border-radius: 38px;
   background-color: #5e42b0;
   position: absolute;
-  margin-left: 30vw;
   margin-top: 220px;
   z-index: 1;
   background: url("../svg/apple_logo_black.svg") no-repeat #5e42b0;
@@ -112,7 +118,7 @@ p {
   border-radius: 38px;
   background-color: #5e42b0;
   position: absolute;
-  margin-left: 50vw;
+  margin-left: 335px;
   margin-top: 220px;
   z-index: 1;
   background: url("../svg/google-play.svg") no-repeat #5e42b0;
@@ -481,7 +487,6 @@ p {
   border-radius: 38px;
   background-color: #5e42b0;
   position: absolute;
-  margin-left: 30vw;
   margin-top: 150px;
   z-index: 1;
   background: url("../svg/apple_logo_black.svg") no-repeat #5e42b0;
@@ -495,7 +500,7 @@ p {
   border-radius: 38px;
   background-color: #5e42b0;
   position: absolute;
-  margin-left: 50vw;
+  margin-left: 335px;
   margin-top: 150px;
   z-index: 1;
   background: url("../svg/google-play.svg") no-repeat #5e42b0;
@@ -544,16 +549,6 @@ p {
   
   .header-title {
 	font-size: 4.6vw;
-  }
-  
-  .button-left {
-	margin-left: 32vw;
-    margin-top: 21vw;
-  }
-  
-  .button-right {
-	margin-left: 56vw;
-    margin-top: 21vw;
   }
   
   .new-preview {
@@ -614,14 +609,6 @@ p {
     font-size: 2.1vw;
   }
   
-  .button-left-footer {
-	margin-left: 32vw;
-  }
-  
-  .button-right-footer {
-    margin-left: 56vw;
-  }
-  
   .logo-menu-footer {
     margin-left: 49vw;
     margin-right: 45vw;
@@ -662,14 +649,6 @@ p {
      font-size: 4.9vw;
    }
    
-   .button-right {
-	 margin-left: 52%;
-   }
-   
-   .button-left {
-	 margin-left: 27%;
-   }
-   
    .container-header-titlee {
     padding-left: 29vw;
    }
@@ -706,14 +685,6 @@ p {
   
   .container-header-title_footer {
     padding-left: 20.7vw;
-  }
-  
-  .button-left-footer {
-    margin-left: 27%;
-  }
-  
-  .button-right-footer {
-	margin-left: 52%;
   }
   
   .header-title_footer {
@@ -777,14 +748,6 @@ p {
      font-size: 4.9vw;
    }
    
-   .button-right {
-	 margin-left: 54%;
-   }
-   
-   .button-left {
-	 margin-left: 25%;
-   }
-   
    .container-header-titlee {
     padding-left: 29vw;
    }
@@ -835,14 +798,6 @@ p {
     padding-left: 20.7vw;
   }
   
-  .button-left-footer {
-    margin-left: 25%;
-  }
-  
-  .button-right-footer {
-	margin-left: 54%;
-  }
-  
   .header-title_footer {
 	font-size: 4.9vw;
   }
@@ -866,7 +821,7 @@ p {
 
 
 
-@media (min-width: 1020px) and (max-width: 1099px)  {
+@media (min-width: 961px) and (max-width: 1099px)  {
 	
    .hider {
 	padding-left: 10vw;
@@ -887,7 +842,7 @@ p {
    }
    
    .new-description {
-    width: 500px;
+    width: 450px;
    }
    
    .hide {
@@ -906,14 +861,6 @@ p {
      font-size: 4.9vw;
    }
    
-   .button-right {
-	 margin-left: 53%;
-   }
-   
-   .button-left {
-	 margin-left: 19%;
-   }
-   
    .container-header-titlee {
     padding-left: 29vw;
    }
@@ -923,7 +870,7 @@ p {
    }
   
   .new-previe {
-    margin-left: 21vw;
+    margin-left: 16vw;
 	margin-top: 40px;
   }
 
@@ -971,14 +918,6 @@ p {
     padding-left: 20.7vw;
   }
   
-  .button-left-footer {
-    margin-left: 19%;
-  }
-  
-  .button-right-footer {
-	margin-left: 53%;
-  }
-  
   .header-title_footer {
 	font-size: 4.9vw;
   }
@@ -1000,7 +939,7 @@ p {
   
 }
 
-@media (min-width: 711px) and (max-width: 1300px) {
+@media (min-width: 621px) and (max-width: 1300px) {
 	
    .card__preview_be {
 	background-image: url(../images/be-active_640.jpg);
@@ -1016,7 +955,7 @@ p {
   
 }
 
-@media (min-width: 711px) and (max-width: 1019px) {
+@media (min-width: 621px) and (max-width: 961px) {
 	
    .hider {
 	padding-left: 34px;
@@ -1072,17 +1011,13 @@ p {
    }
    
    .button-right {
-	margin-left: 0;
     margin-top: 0;
     bottom: 90px;
-    right: 6%;
    }
    
    .button-left {
-	margin-left: 0;
     margin-top: 0;
     bottom: 90px;
-    left: 6%;
    }
    
    .container-header-titlee {
@@ -1163,17 +1098,13 @@ p {
   }
   
   .button-left-footer {
-    margin-left: 0;
 	margin-top: 0;
 	bottom: 145px;
-    left: 6%;
   }
   
   .button-right-footer {
-	margin-left: 0;
 	margin-top: 0;
 	bottom: 145px;
-    right: 6%;
   }
   
   .header-title_footer {
@@ -1262,23 +1193,7 @@ p {
   
 }
 
-@media (min-width: 820px) and (max-width: 1019px) {
-	
-  .button-left {
-    left: 11%;
-   }
-   
-  .button-right {
-    right: 11%;
-   }
-   
-  .button-right-footer {
-	right: 11%; 
-   }
-   
-  .button-left-footer {
-	left: 11%;   
-   }
+@media (min-width: 820px) and (max-width: 961px) {
    
   .new-description {
     width: 490px;
@@ -1288,7 +1203,7 @@ p {
    
 }
 
-@media (min-width: 320px) and (max-width: 710px) {
+@media (min-width: 320px) and (max-width: 620px) {
 	
    .hider {
     padding-left: 20px;
@@ -1297,7 +1212,7 @@ p {
    }
    
    .header {
-	 height: 758px;
+	 height: 570px;
    }
    
    .header::after {
@@ -1309,6 +1224,11 @@ p {
 	padding-left: 20px;
     padding-top: 37px;
 	padding-bottom: 0;
+   }
+   
+   .header-logo {
+    width: 133px;
+    height: 36px;
    }
    
    .new-decription {
@@ -1367,8 +1287,12 @@ p {
    }
 	
     .header-title {
-     font-size: 8.75vw;
+     font-size: 28px;
 	 letter-spacing: 2px;
+   }
+   
+   .button {
+    width: 280px;
    }
    
    .button-right {
@@ -1379,26 +1303,28 @@ p {
 	width: 280px;
     height: 35px;
 	background-size: 28px;
-    background-position: left 70px top 5px
+    background-position: left 77px top 5px
    }
    
    .link {
     font-size: 9px;
+	padding-left: 110px;
    }
    
    .button-left {
-	margin-top: 190px;
+	margin-top: 90px;
 	position: relative;
     margin-left: auto;
     margin-right: auto;
 	width: 280px;
     height: 35px;
 	background-size: 28px;
-    background-position: left 70px top 5px
+    background-position: left 77px top 5px
    }
    
    .links {
     font-size: 9px;
+	padding-left: 110px;
    }
    
    .p {
@@ -1407,6 +1333,7 @@ p {
    
    .container-header-titlee {
     padding-left: 20vw;
+	margin-top: -15px;
    }
    
    .container-header-title {
@@ -1415,16 +1342,13 @@ p {
   
   .new-previe {
     top: 140px;
-    left: 1px;
-    margin-left: 10px;
+    margin-left: 0;
   }
 
   .new-preview {
     position: absolute;
     top: 120px;
-    left: 3px;
-	margin-left: 17vw;
-	margin-top: 0;
+	margin-left: 0;
   }
 
   .new-info {
@@ -1473,7 +1397,7 @@ p {
   .categories-quantit,
   .categories-quant {
     width: 98%;
-    font-size: 4.68vw;
+    font-size: 15px;
 	margin-top: 20px;
   }
   
@@ -1499,7 +1423,7 @@ p {
   
   .categories-decription {
 	width: 85vw;
-	font-size: 5vw;
+	font-size: 16px;
   }
   
   .container-header-title_footer {
@@ -1513,18 +1437,18 @@ p {
   
   .pp {
     padding-left: 0px;
-	font-size: 4.4vw;
+	font-size: 14px;
   }
   
   .button-left-footer {
-	margin-top: 140px;
+	margin-top: 73px;
 	position: relative;
     margin-left: auto;
     margin-right: auto;
 	width: 280px;
     height: 35px;
 	background-size: 28px;
-    background-position: left 70px top 5px
+    background-position: left 77px top 5px
   }
   
   .button-right-footer {
@@ -1535,33 +1459,40 @@ p {
 	width: 280px;
     height: 35px;
 	background-size: 28px;
-    background-position: left 70px top 5px
+    background-position: left 77px top 5px
   }
   
   .header-title_footer {
-	font-size: 10vw;
+	font-size: 32px;
     padding-left: 0;
-	margin-top: 232px;
+	margin-top: 150px;
   }
   
   .logo-menu-footer {
 	position: relative;
-    margin-left: auto;
-    padding-top: 80px;
+    margin-left: 0;
+	margin-right: 0;
+    padding-top: 75px;
     width: 133px;
     height: 37px;
   }
   
   .logo-menu {
 	position: relative;
-    margin-left: auto;
+    margin-left: 0;
 	padding-top: 31px;
 	width: 133px;
     height: 37px;
+	margin-right: 0;
+  }
+  
+  .log {
+    display: flex;
+	justify-content: center;
   }
   
   .container-header {
-    margin-top: 137px;
+    margin-top: 150px;
   }
   
   .card__preview_be {
@@ -1605,7 +1536,7 @@ p {
   
   .footer {
 	order: 9;
-	height: 758px;
+	height: 570px;
   }
   
   .footer::after {
@@ -1652,7 +1583,13 @@ p {
   
 }
 
-@media (min-width: 500px) and (max-width: 710px) {
+@media (max-width: 620px) and (min-width: 320px) {
+	.new {
+    justify-content: center;
+    }
+}
+
+@media (min-width: 458px) and (max-width: 620px) {
 	
    .card {
     height: 450px;
@@ -1663,7 +1600,7 @@ p {
    }
    
    .categories-quantit, .categories-quant {
-    font-size: 2.975vw;
+    font-size:  15px;
    }
    
    .new-description {
@@ -1671,14 +1608,65 @@ p {
    }
    
    .categories-decription {
-    font-size: 3.2vw;
+  
    }
    
    .logo-menu-footer {
-    padding-top: 40px;
+	   
    }
-	
+   
 }
+
+@media (min-width: 400px) and (max-width: 457px) {
+   .new-description {
+    margin-top: 95px;
+   }
+}
+
+@media (min-width: 500px) and (max-width: 620px) {
+   .tags {
+    margin-top: 41px; 
+}
+}
+
+@media (min-width: 621px) and (max-width: 700px) {
+   .button {
+    width: 615px;
+   }
+   
+   .button-left {
+    width: 300px;
+   }
+   
+   .button-right {
+    width: 300px;
+    margin-left: 315px;
+   }
+   
+   .button-left-footer {
+    width: 300px;
+   }
+   
+   .button-right-footer {
+    width: 300px;
+    margin-left: 315px;
+   }
+   
+   .new-description {
+    width: 350px;
+   }
+   
+   .new-preview {
+    margin-left: -30vw;
+   }
+   
+   .header-title_footer {
+    font-size: 69px;
+   }
+
+}
+
+
 
 
 
