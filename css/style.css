@@ -1303,7 +1303,8 @@ p {
 	width: 280px;
     height: 35px;
 	background-size: 28px;
-    background-position: left 77px top 5px
+    background-position: left 75px top 2.5px;
+	display: block;
    }
    
    .link {
@@ -1319,7 +1320,8 @@ p {
 	width: 280px;
     height: 35px;
 	background-size: 28px;
-    background-position: left 77px top 5px
+    background-position: left 75px top 2px;
+	display: block;
    }
    
    .links {
@@ -1329,6 +1331,7 @@ p {
    
    .p {
     margin-top: 0;
+	margin-bottom: -4px;
    }
    
    .container-header-titlee {
@@ -1448,7 +1451,8 @@ p {
 	width: 280px;
     height: 35px;
 	background-size: 28px;
-    background-position: left 77px top 5px
+    background-position: left 75px top 2px;
+	display: block;
   }
   
   .button-right-footer {
@@ -1459,7 +1463,8 @@ p {
 	width: 280px;
     height: 35px;
 	background-size: 28px;
-    background-position: left 77px top 5px
+    background-position: left 75px top 2.5px;
+	display: block;
   }
   
   .header-title_footer {
