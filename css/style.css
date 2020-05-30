@@ -59,9 +59,12 @@ p {
   opacity: 0.10;
 }
 
+.log {
+  display: flex;
+  justify-content: center;
+}
+
 .logo-menu {
-  margin-left: 45%;
-  margin-right: 45%;
   padding-top: 41px;
 }
 
@@ -97,33 +100,30 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 646px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.button-left {
-  width: 311px;
-  height: 77px;
-  border-radius: 38px;
-  background-color: #5e42b0;
-  position: absolute;
-  margin-top: 220px;
-  z-index: 1;
+.left {
   background: url("../svg/apple_logo_black.svg") no-repeat #5e42b0;
-  background-size: 50px;
   background-position: left 39px top 10px;
 }
 
-.button-right {
+.right {
+  background: url("../svg/google-play.svg") no-repeat #5e42b0;
+  background-position: left 40px top 14px;
+}
+
+.buttonn {
   width: 311px;
   height: 77px;
   border-radius: 38px;
   background-color: #5e42b0;
-  position: absolute;
-  margin-left: 335px;
+  position: relative;
   margin-top: 220px;
   z-index: 1;
-  background: url("../svg/google-play.svg") no-repeat #5e42b0;
   background-size: 50px;
-  background-position: left 40px top 14px;
 }
 
 .p {
@@ -482,37 +482,22 @@ p {
   padding-left: 180px;
 }
 
-.button-left-footer {
-  width: 311px;
-  height: 77px;
-  border-radius: 38px;
-  background-color: #5e42b0;
-  position: absolute;
+.left-footer {
   margin-top: 150px;
-  z-index: 1;
   background: url("../svg/apple_logo_black.svg") no-repeat #5e42b0;
   background-size: 50px;
   background-position: left 39px top 10px;
 }
 
-.button-right-footer {
-  width: 311px;
-  height: 77px;
-  border-radius: 38px;
-  background-color: #5e42b0;
-  position: absolute;
-  margin-left: 335px;
+.right-footer {
   margin-top: 150px;
-  z-index: 1;
   background: url("../svg/google-play.svg") no-repeat #5e42b0;
   background-size: 50px;
   background-position: left 40px top 14px;
 }
 
 .logo-menu-footer {
-  margin-left: 43%;
-  margin-right: 47%;
-  padding-top: 490px;
+  padding-top: 270px;
 }
 
 .footer {
@@ -609,11 +594,6 @@ p {
   .pp {
     font-size: 2.1vw;
   }
-  
-  .logo-menu-footer {
-    margin-left: 49vw;
-    margin-right: 45vw;
-  }
  
   .new-description {
 	margin-bottom: 110px;
@@ -646,15 +626,15 @@ p {
     font-size: 4.7vw;
    }
 	
-   .header-title {
+  .header-title {
      font-size: 4.9vw;
    }
    
-   .container-header-titlee {
+  .container-header-titlee {
     padding-left: 29vw;
    }
    
-   .container-header-title {
+  .container-header-title {
     padding-left: 3vw;
    }
   
@@ -692,19 +672,8 @@ p {
 	font-size: 4.8vw;
   }
   
-   .pp {
+  .pp {
     font-size: 2.15vw;
-  }
-  
-  .logo-menu-footer {
-    margin-left: 44%;
-    margin-right: 42%;
-	padding-top: 530px;
-  }
-  
-  .logo-menu {
-    margin-left: 43%;
-    margin-right: 41%;
   }
   
 }
@@ -749,11 +718,11 @@ p {
      font-size: 4.9vw;
    }
    
-   .container-header-titlee {
+  .container-header-titlee {
     padding-left: 29vw;
    }
    
-   .container-header-title {
+  .container-header-title {
     padding-left: 3vw;
    }
   
@@ -807,20 +776,7 @@ p {
     font-size: 2.25vw;
   }
   
-  .logo-menu-footer {
-    margin-left: 44%;
-    margin-right: 42%;
-	padding-top: 530px;
-  }
-  
-  .logo-menu {
-    margin-left: 43%;
-    margin-right: 41%;
-  }
-  
 }
-
-
 
 @media (min-width: 961px) and (max-width: 1099px)  {
 	
@@ -928,14 +884,7 @@ p {
   }
   
   .logo-menu-footer {
-    margin-left: 44%;
-    margin-right: 42%;
-	padding-top: 530px;
-  }
-  
-  .logo-menu {
-    margin-left: 43%;
-    margin-right: 41%;
+	padding-top: 290px;
   }
   
 }
@@ -1011,14 +960,8 @@ p {
      font-size: 64px;
    }
    
-   .button-right {
-    margin-top: 0;
-    bottom: 90px;
-   }
-   
-   .button-left {
-    margin-top: 0;
-    bottom: 90px;
+   .right,.left  {
+    bottom: 20px;
    }
    
    .container-header-titlee {
@@ -1098,30 +1041,13 @@ p {
 	font-size: 31px;
   }
   
-  .button-left-footer {
-	margin-top: 0;
-	bottom: 145px;
-  }
-  
-  .button-right-footer {
-	margin-top: 0;
-	bottom: 145px;
-  }
-  
   .header-title_footer {
 	font-size: 70px;
     padding-left: 0;
   }
   
   .logo-menu-footer {
-    margin-left: 37%;
-    margin-right: 37%;
-	padding-top: 390px;
-  }
-  
-  .logo-menu {
-    margin-left: 37%;
-    margin-right: 37%;
+	padding-top: 150px;
   }
   
   .card__preview_be {
@@ -1146,7 +1072,7 @@ p {
 	order: 8;  
   }
   
-   .cart {
+  .cart {
     width: 100%;
 	height: 335px;
   }
@@ -1169,7 +1095,7 @@ p {
     padding-left: 32px;
   }
   
-    .t{
+  .t {
 	  order: 5;
 	  margin-left: 32px;
   }
@@ -1287,25 +1213,19 @@ p {
     z-index: 0;
    }
 	
-    .header-title {
+   .header-title {
      font-size: 28px;
 	 letter-spacing: 2px;
    }
    
    .button {
     width: 280px;
+	flex-direction: column;
    }
    
-   .button-right {
+   .right {
     margin-top: 15px;
-	position: relative;
-    margin-left: auto;
-    margin-right: auto;
-	width: 280px;
-    height: 35px;
-	background-size: 28px;
     background-position: left 75px top 2.5px;
-	display: block;
    }
    
    .link {
@@ -1314,16 +1234,18 @@ p {
 	vertical-align: 10%;
    }
    
-   .button-left {
-	margin-top: 90px;
+   .left {
+	 background-position: left 75px top 2px;
+	 margin-top: 90px;
+   }
+   
+   .buttonn {
 	position: relative;
     margin-left: auto;
     margin-right: auto;
 	width: 280px;
     height: 35px;
 	background-size: 28px;
-    background-position: left 75px top 2px;
-	display: block;
    }
    
    .links {
@@ -1445,11 +1367,9 @@ p {
 	font-size: 14px;
   }
   
-  .button-left-footer {
+  .left-footer {
 	margin-top: 73px;
 	position: relative;
-    margin-left: auto;
-    margin-right: auto;
 	width: 280px;
     height: 35px;
 	background-size: 28px;
@@ -1457,11 +1377,9 @@ p {
 	display: block;
   }
   
-  .button-right-footer {
+  .right-footer {
 	margin-top: 15px;
 	position: relative;
-    margin-left: auto;
-    margin-right: auto;
 	width: 280px;
     height: 35px;
 	background-size: 28px;
@@ -1477,8 +1395,6 @@ p {
   
   .logo-menu-footer {
 	position: relative;
-    margin-left: 0;
-	margin-right: 0;
     padding-top: 75px;
     width: 133px;
     height: 37px;
@@ -1526,7 +1442,7 @@ p {
 	order: 8;  
   }
   
-   .cart {
+  .cart {
     width: 100%;
 	height: 225px;
   }
@@ -1535,7 +1451,7 @@ p {
     height: 350px;
   }
   
-   .card__preview_work {
+  .card__preview_work {
 	width: 100%;
 	order: 7;
 	background-image: url(../images/work-it.jpg);
@@ -1556,7 +1472,7 @@ p {
     padding-left: 20px;
   }
   
-    .t{
+  .t {
 	  order: 5;
 	  margin-left: 20px;
   }
@@ -1614,14 +1530,6 @@ p {
     margin-top: 109px;
    }
    
-   .categories-decription {
-  
-   }
-   
-   .logo-menu-footer {
-	   
-   }
-   
 }
 
 @media (min-width: 400px) and (max-width: 457px) {
@@ -1641,22 +1549,16 @@ p {
     width: 615px;
    }
    
-   .button-left {
+   .left,.right{
     width: 300px;
    }
    
-   .button-right {
-    width: 300px;
-    margin-left: 315px;
-   }
-   
-   .button-left-footer {
+   .left-footer {
     width: 300px;
    }
    
-   .button-right-footer {
+   .right-footer {
     width: 300px;
-    margin-left: 315px;
    }
    
    .new-description {
@@ -1670,16 +1572,4 @@ p {
    .header-title_footer {
     font-size: 69px;
    }
-
 }
-
-
-
-
-
-
-
-
-
-
-  
